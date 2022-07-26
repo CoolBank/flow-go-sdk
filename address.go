@@ -195,7 +195,7 @@ const (
 	linearCodeD = 7
 
 	// the maximum value of the internal state, 2^k.
-	maxState = (1 << linearCodeK) - 1
+	maxState = (1 << 20) - 1
 )
 
 // uint64ToAddress returns an address with value v
